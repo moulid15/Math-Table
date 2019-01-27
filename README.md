@@ -24,7 +24,7 @@ print(trig)
   '3°': {'sin(3°)': 0.1411200080598672, 'cos(3°)': -0.9899924966004454, 'tan(3°)': -0.1425465430742778}
 }
 ```
-### Clone and Contribute
+## Clone and Contribute
 ``` 
 git clone https://github.com/moulid15/Math-Table.git
 ```
