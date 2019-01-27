@@ -1,6 +1,8 @@
 # Math-Table
 This is a math cheat sheet for multiplication tables,trig functions,etc
   example
+       
+       
        ```{
           '0°': {'sin(0)': 0.0, 'cos(0)': 1.0, 'tan(0)': 0.0}, 
           '1°': {'sin(1)': 0.8414709848078965, 'cos(1)': 0.5403023058681398, 'tan(1)': 1.5574077246549023}, 
