@@ -1,6 +1,11 @@
 # Math-Table
 This is a math cheat sheet for multiplication tables,trig functions,etc
 
+## Clone and Contribute
+``` 
+git clone https://github.com/moulid15/Math-Table.git
+```
+
 ### Division
 ###### this is only for 0-10 but div.py has 0-225
 ```python
@@ -35,10 +40,7 @@ print(table1)
 10   0  10    5  10/3  5/2    2  5/3  10/7  5/4  10/9     1
 ```
 
-## Clone and Contribute
-``` 
-git clone https://github.com/moulid15/Math-Table.git
-```
+
 ### Trig functions
        
        
