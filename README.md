@@ -24,4 +24,43 @@ print(trig)
   '3°': {'sin(3°)': 0.1411200080598672, 'cos(3°)': -0.9899924966004454, 'tan(3°)': -0.1425465430742778}
 }
 ```
+### Clone and Contribute
+``` 
+git clone https://github.com/moulid15/Math-Table.git
+```
+### Division
+###### this is only for 0-10 but div.py has 0-225
+```python
+import pandas
+from fractions import Fraction
+table={}
+t={}
+table1=[]
+for i in range(0,225):
+    for j in range(0,225):
+        if i is 0:
+            t[j]=0
+        else:
+            t[j]=str(Fraction(j/i).limit_denominator())
+    table[i]=t
+    t={}
+    table1=pandas.DataFrame(table,table[i],table[i])
+print(table1)
+```
+```
+ 0   1    2     3    4    5    6     7    8     9     10
+0    0   0    0     0    0    0    0     0    0     0     0
+1    0   1  1/2   1/3  1/4  1/5  1/6   1/7  1/8   1/9  1/10
+2    0   2    1   2/3  1/2  2/5  1/3   2/7  1/4   2/9   1/5
+3    0   3  3/2     1  3/4  3/5  1/2   3/7  3/8   1/3  3/10
+4    0   4    2   4/3    1  4/5  2/3   4/7  1/2   4/9   2/5
+5    0   5  5/2   5/3  5/4    1  5/6   5/7  5/8   5/9   1/2
+6    0   6    3     2  3/2  6/5    1   6/7  3/4   2/3   3/5
+7    0   7  7/2   7/3  7/4  7/5  7/6     1  7/8   7/9  7/10
+8    0   8    4   8/3    2  8/5  4/3   8/7    1   8/9   4/5
+9    0   9  9/2     3  9/4  9/5  3/2   9/7  9/8     1  9/10
+10   0  10    5  10/3  5/2    2  5/3  10/7  5/4  10/9     1
+```
+
+
           
