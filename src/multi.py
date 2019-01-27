@@ -1,11 +1,11 @@
-
-
+import pandas
 table={}
 t={}
-for i in range(0,12):
-    for j in range(0,12):
+table1=[]
+for i in range(0,16):
+    for j in range(0,16):
         t[j]=j*i
     table[i]=t
     t={}
-print(table)
-
+    table1=pandas.DataFrame(table,table[i],table[i])
+print(table1)
