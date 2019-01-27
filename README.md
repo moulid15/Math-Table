@@ -3,7 +3,17 @@ This is a math cheat sheet for multiplication tables,trig functions,etc
   example
        
        
-       ```Python
+       ```python
+          import math
+          trig={}
+          t2={}
+          for i in range(0,360):
+              t2["sin("+str(i)+")"]=math.sin(i)
+              t2["cos("+str(i)+")"]=math.cos(i)
+              t2["tan("+str(i)+")"]=math.tan(i)
+              trig[str(i)+u'\xb0']=t2
+              t2={}
+          print(trig)
        {
           '0°': {'sin(0)': 0.0, 'cos(0)': 1.0, 'tan(0)': 0.0}, 
           '1°': {'sin(1)': 0.8414709848078965, 'cos(1)': 0.5403023058681398, 'tan(1)': 1.5574077246549023}, 
