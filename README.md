@@ -1,6 +1,7 @@
 # Math-Table
 This is a math cheat sheet for multiplication tables,trig functions,etc
-  example for 0-3 degrees
+
+example for 0-3 degrees
        
        
 ```python
