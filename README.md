@@ -5,7 +5,6 @@ This is a math cheat sheet for multiplication tables,trig functions,etc
 ``` 
 git clone https://github.com/moulid15/Math-Table.git
 ```
-
 ### Division
 ###### this is only for 0-10 but div.py has 0-225
 ```python
