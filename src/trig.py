@@ -13,5 +13,5 @@ for i in range(0,360):
     trig[str(i)+u'\xb0']=t2
     t2={}
     table=pandas.DataFrame(values,values[i],values[i])
-    
+#prints table    
 print(table)
